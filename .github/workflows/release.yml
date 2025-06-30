@@ -25,7 +25,6 @@ jobs:
       - name: Build project
         run: |
           cd /home/runner/work/screenshot/
-          cd screenshot && composer install --no-dev && cd ..
           rm -r screenshot/tools screenshot/.git*
           tar -zcvf screenshot-${{ github.ref_name }}.tgz screenshot
 
