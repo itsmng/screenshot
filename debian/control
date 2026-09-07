@@ -1,0 +1,12 @@
+Source: screenshot
+Section: web
+Priority: standard
+Maintainer: ITSMng SysAdmin <sysadmin@itsm-ng.com>
+Build-Depends:	debhelper (>= 9)
+Rules-Requires-Root: no
+Homepage: https://github.com/itsmng/screenshot
+
+Package: itsm-ng-plugin-screenshot
+Architecture: all
+Depends: itsm-ng (>= 1:2.0),
+Description: Take a screenshot or screen recording directly from GLPI and attach it to a ticket, change or problem. Only works from the timeline for now.
